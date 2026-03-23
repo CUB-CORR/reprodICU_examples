@@ -121,8 +121,9 @@ legend_elements = [
 ax.legend(handles=legend_elements, loc="upper right", fontsize=11)
 
 plt.tight_layout()
-plt.savefig(f"{plots_dir}/forest_plot.eps", dpi=300, bbox_inches="tight")
 plt.savefig(f"{plots_dir}/forest_plot.png", dpi=300, bbox_inches="tight")
+plt.savefig(f"{plots_dir}/forest_plot.eps", dpi=300, bbox_inches="tight")
+plt.savefig(f"{plots_dir}/forest_plot.pdf", dpi=300, bbox_inches="tight")
 plt.close()
 
 print(f"\nForest plot saved to: {plots_dir}/forest_plot.*")

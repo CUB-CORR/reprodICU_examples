@@ -235,6 +235,7 @@ plt.tight_layout(rect=[0, 0.05, 1, 1])
 plot_filename = f"{plots_dir}/icu_mortality_evaluation"
 fig.savefig(plot_filename + ".png", dpi=300, bbox_inches="tight")
 fig.savefig(plot_filename + ".eps", dpi=300, bbox_inches="tight")
+fig.savefig(plot_filename + ".pdf", dpi=300, bbox_inches="tight")
 plt.close()
 
 # region SHAP and Feature Importance
